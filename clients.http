@@ -1,0 +1,44 @@
+POST http://localhost:8080/clients/new?name=ВАСИЛЁК ФГУП&shortName=ВАСИЛЁК&address=КАКОЙ-ТО АДРЕС&organizational=1
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/clients/all
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/clients/all?name=РО&sort=name,desc
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+###
+
+GET http://localhost:8080/clients/1
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+###
+
+PUT http://localhost:8080/clients/1?name=РОМАШКА ИНКОРПОРЕЙТЕД
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+###
+
+DELETE http://localhost:8080/clients/6
+Accept: application/json
+Content-Type: application/json
+Cache-Control: no-cache
+
+###
+
+
+
+
